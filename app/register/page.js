@@ -1,5 +1,4 @@
 "use client";
-
 import { useState } from "react";
 
 export default function RegisterPage() {
@@ -117,14 +116,15 @@ export default function RegisterPage() {
         </form>
 
         <div className="mt-8 text-center text-gray-700">
-          Already have an account?
-          <button
-            type="button"
-            className="ml-2 text-indigo-600 font-semibold hover:underline"
-          >
-            Login
-          </button>
-        </div>
+  Already have an account?
+  <button
+    type="button"
+    onClick={() => (window.location.href = "/login")}
+    className="ml-2 text-indigo-600 font-semibold hover:underline"
+  >
+    Login
+  </button>
+</div>
 
       </div>
 
