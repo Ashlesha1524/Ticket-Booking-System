@@ -1,36 +1,169 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ticket Booking System
 
-## Getting Started
+A full-stack **Ticket Booking System** built using **Next.js, React, MongoDB Atlas, Mongoose, and Tailwind CSS**. The application allows organizers to manage venues and events while customers can browse events, book tickets, and view their bookings with QR code-based tickets.
 
-First, run the development server:
+---
+
+## Live Demo
+
+🔗 https://ticket-booking-system-one-green.vercel.app
+
+---
+
+## GitHub Repository
+
+🔗 https://github.com/Ashlesha1524/Ticket-Booking-System
+
+---
+
+# Features
+
+## Authentication
+- User Registration
+- User Login
+- JWT Authentication
+- Organizer and Customer Roles
+
+## Organizer Module
+- Organizer Dashboard
+- Add Venue
+- View Venues
+- Delete Venue
+- Create Events
+- View Events
+
+## Customer Module
+- Browse Events
+- View Event Details
+- Select Seats
+- Book Tickets
+- View My Bookings
+- Cancel Booking
+- QR Code Ticket Generation
+
+---
+
+# Tech Stack
+
+### Frontend
+- Next.js
+- React.js
+- Tailwind CSS
+
+### Backend
+- Next.js API Routes
+- Node.js
+
+### Database
+- MongoDB Atlas
+- Mongoose
+
+### Authentication
+- JWT (JSON Web Token)
+- bcryptjs
+
+### Other Libraries
+- QRCode React
+- React Hot Toast
+- Axios
+
+---
+
+# Project Structure
+
+```
+ticket-booking-system
+│
+├── app
+│   ├── organizer
+│   ├── customer
+│   ├── venue
+│   ├── event
+│   ├── booking
+│   ├── my-bookings
+│   ├── login
+│   ├── register
+│   └── api
+│
+├── components
+│
+├── models
+│
+├── lib
+│
+├── public
+│
+└── package.json
+```
+
+---
+
+# Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Ashlesha1524/Ticket-Booking-System.git
+```
+
+Move into the project
+
+```bash
+cd Ticket-Booking-System
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+Create a `.env.local` file.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```env
+MONGODB_URI=YOUR_MONGODB_CONNECTION_STRING
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+JWT_SECRET=YOUR_SECRET_KEY
 
-## Deploy on Vercel
+EMAIL_USER=YOUR_EMAIL
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+EMAIL_PASS=YOUR_EMAIL_PASSWORD
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+#  Future Enhancements
+
+- Online Payment Gateway
+- Email Notifications
+- Seat Hold Timer
+- Waitlist Management
+- Booking Analytics Dashboard
+- Admin Reports
+
+---
+
+#  Developed By
+
+**Ashlesha Mishra**
+
+B.Tech CSE (Data Science)
+
+Pranveer Singh Institute of Technology
+
