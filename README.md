@@ -151,9 +151,6 @@ EMAIL_PASS=YOUR_EMAIL_PASSWORD
 #  Future Enhancements
 
 - Online Payment Gateway
-- Email Notifications
-- Seat Hold Timer
-- Waitlist Management
 - Booking Analytics Dashboard
 - Admin Reports
 
